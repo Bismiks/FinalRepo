@@ -50,7 +50,7 @@ const skills = [
   {
     id: 6,
     src: sql,
-    title: "Microsoft SQL Server",
+    title: "MSSQL",
     style: "shadow-gray-500",
   },
   {
