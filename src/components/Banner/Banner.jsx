@@ -27,6 +27,7 @@ import mongoDbImg from "../../assets/images/mongodb.png";
 import indianFlag from "../../assets/images/indian-flag.png";
 import { TypeAnimation } from "react-type-animation";
 import { SparklesView } from "../Ui/SparklesView";
+import Bismi_Sabu_Resume from '../../assets/files/Bismi_Sabu_Resume.pdf';
 
 const socialLinks = [
   { icon: FiGithub, link: "https://github.com/Bismi-Sabu" },
@@ -102,22 +103,18 @@ const Banner = () => {
                   </Link>
                 ))}
               </div>
-              {/* <a
-              className="mx-auto lg:ml-0 download-btn w-fit flex gap-2 items-center outline-none capitalize mt-2 px-5 py-[0.6rem] font-medium"
-              href={CV}
-              download="Pranav M - CV"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <MdCloudDownload size={23} className="icon" />
-              download CV
-            </a> */}
+              <a
+                className="mx-auto lg:ml-0 download-btn w-fit flex gap-2 items-center outline-none capitalize mt-2 px-5 py-[0.6rem] font-medium"
+                href={Bismi_Sabu_Resume}
+                download="Bismi Sabu - CV"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <MdCloudDownload size={23} className="icon" />
+                download CV
+              </a>
             </div>
-            {/* <img
-            src={myImg}
-            alt="Hero"
-            className="w-[22rem] object-cover aspect-square rounded-full"
-          /> */}
+            {/* <img src={myImg} alt="Hero" className="w-[22rem] object-cover aspect-square rounded-full"/> */}
             <div
               className="hero-img w-[19rem] h-[19rem] sm:w-[25rem] sm:h-[25rem]"
               style={{ backgroundImage: `url(${myImg})` }}
