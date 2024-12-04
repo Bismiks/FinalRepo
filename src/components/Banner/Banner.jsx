@@ -69,11 +69,11 @@ const Banner = () => {
                   repeat={Infinity}
                   className="text-[1.5rem] sm:text-[2.5rem] xl:text-[2.7rem] leading-[2.7rem] sm:leading-[4.2rem] font-bold"
                 />
-                {/* <img
+                <img
                 src={handImg}
                 alt="Waving Hand"
                 className="hand-img w-[2.8rem] sm:w-[3.2rem] inline-block ml-1 sm:ml-5 -mt-2"
-              /> */}
+              /> 
                 <img
                   src={boyImg}
                   loading="lazy"

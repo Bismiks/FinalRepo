@@ -10,7 +10,12 @@ import mui from "../../assets/images/MUI.png";
 import redux from "../../assets/images/redux.png";
 import jwt from "../../assets/images/jwt.png";
 import typescript from "../../assets/images/typescript.png";
-import csharp from "../../assets/images/csharp.png" 
+import postman from "../../assets/images/Postman.png";
+import dotnet from "../../assets/images/NET core.png";
+import csharp from "../../assets/images/C# (CSharp).png";
+import jira from "../../assets/images/Jira.png";
+import sql from "../../assets/images/Microsoft SQL Server.png";
+
 const skills = [
   {
     id: 1,
@@ -19,71 +24,95 @@ const skills = [
     style: "shadow-blue-500",
   },
   {
-    id: 3,
+    id: 2,
     src: redux,
     title: "Redux Toolkit",
     style: "shadow-purple-600",
   },
   {
-    id: 2,
+    id: 3,
     src: javascript,
     title: "JavaScript",
     style: "shadow-yellow-500",
   },
   {
+    id: 4,
+    src: dotnet,
+    title: ".Net Core",
+    style: "shadow-yellow-500",
+  },
+  {
+    id: 5,
+    src: csharp,
+    title: "C#",
+    style: "shadow-gray-500",
+  },
+  {
+    id: 6,
+    src: sql,
+    title: "Microsoft SQL Server",
+    style: "shadow-gray-500",
+  },
+  {
     id: 7,
+    src: postman,
+    title: "Postman",
+    style: "shadow-yellow-500",
+  },
+  {
+    id: 8,
+    src: jira,
+    title: "Jira",
+    style: "shadow-yellow-500",
+  },
+  {
+    id: 9,
     src: html,
     title: "HTML",
     style: "shadow-orange-500",
   },
   {
-    id: 8,
+    id: 10,
     src: css,
     title: "CSS",
     style: "shadow-blue-500",
   },
   {
-    id: 10,
+    id: 11,
     src: mui,
     title: "Material UI",
     style: "shadow-blue-500",
   },
   {
-    id: 11,
+    id: 12,
     src: bootstrap,
     title: "Bootstrap",
     style: "shadow-purple-400",
   },
   {
-    id: 16,
+    id: 13,
     src: typescript,
     title: "TypeScript",
     style: "shadow-blue-400",
   },
   {
-    id: 6,
+    id: 14,
     src: mongodb,
     title: "MongoDB",
     style: "shadow-green-400",
   },
   {
-    id: 14,
+    id: 15,
     src: jwt,
     title: "JSON Web Token",
     style: "shadow-blue-400",
   },
   {
-    id: 15,
+    id: 16,
     src: github,
     title: "GitHub",
     style: "shadow-gray-500",
-  },
-  {
-    id: 16,
-    src: csharp,
-    title: "C#",
-    style: "shadow-gray-500",
-  },
+  }
 ];
 
 const Skills = () => {
