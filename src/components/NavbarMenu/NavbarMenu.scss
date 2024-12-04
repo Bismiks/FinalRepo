@@ -1,0 +1,24 @@
+.opened-offcanvas{
+  height: 100vh;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.opened-offcanvas {
+  width: 100vw;
+  animation: openoffcanvas 0.3s ease;
+}
+
+@keyframes openoffcanvas {
+  0% {
+    width: 0;
+    transform: translateX(150vw);
+  }
+  100% {
+    width: 100vw;
+    transform: translateX(0);
+  }
+}
