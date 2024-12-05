@@ -62,7 +62,7 @@ const About = () => {
             />
           </h2>
           <p className="text-[#555] text-center lg:text-start">
-            As a dedicated and innovative Full Stack Developer with nearly two years of experience, I specialize in building and enhancing web applications. Currently, I am part of a dynamic team at Accel, focusing on delivering high-quality software solutions that drive business efficiency and growth. My role involves significant contributions to an ERP (Enterprise Resource Planning) application, utilizing React with TypeScript and JSX for the frontend, .NET Core Web API for the backend, and SQL Server for database management.
+            As a dedicated and innovative Full Stack Developer with two years of experience, I specialize in building and enhancing web applications. Currently, I am part of a dynamic team at Accel, focusing on delivering high-quality software solutions that drive business efficiency and growth. My role involves significant contributions to an ERP (Enterprise Resource Planning) application, utilizing React with TypeScript and JSX for the frontend, .NET Core Web API for the backend, and SQL Server for database management.
             <br />
             My expertise in these technologies allows me to build web
             applications from scratch and integrate different functionalities

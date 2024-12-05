@@ -103,7 +103,7 @@ const Banner = () => {
                   </Link>
                 ))}
               </div>
-              <a
+              {/* <a
                 className="mx-auto lg:ml-0 download-btn w-fit flex gap-2 items-center outline-none capitalize mt-2 px-5 py-[0.6rem] font-medium"
                 href={Bismi_Sabu_Resume}
                 download="Bismi Sabu - CV"
@@ -112,7 +112,7 @@ const Banner = () => {
               >
                 <MdCloudDownload size={23} className="icon" />
                 download CV
-              </a>
+              </a> */}
             </div>
             {/* <img src={myImg} alt="Hero" className="w-[22rem] object-cover aspect-square rounded-full"/> */}
             <div
