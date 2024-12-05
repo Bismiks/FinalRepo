@@ -11,7 +11,7 @@ const socialLinks = [
   },
   {
     icon: <TbBrandGithubFilled />,
-    url: "https://github.com/Bismi-Sabu?tab=repositories",
+    url: "https://github.com/Bismiks?tab=repositories",
   },
   {
     icon: <RiWhatsappFill />,

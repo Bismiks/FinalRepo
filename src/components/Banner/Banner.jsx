@@ -30,7 +30,7 @@ import { SparklesView } from "../Ui/SparklesView";
 import Bismi_Sabu_Resume from '../../assets/files/Bismi_Sabu_Resume.pdf';
 
 const socialLinks = [
-  { icon: FiGithub, link: "https://github.com/Bismi-Sabu" },
+  { icon: FiGithub, link: "https://github.com/Bismiks" },
   { icon: FiLinkedin, link: "https://www.linkedin.com/in/bismi-sabu-4b84a5240" },
   { icon: FiMail, link: "mailto:bismi31ks@gmail.com" },
   { icon: FiPhone, link: "tel:+916235145559" },
